@@ -21,7 +21,7 @@ import (
 
 // Auth check the input password and username for authentication.
 func (h *Handler) Auth(ctx *context.Context) {
-	fmt.Prantln(1111)
+	fmt.Println(1111)
 	var (
 		user     models.UserModel
 		ok       bool
