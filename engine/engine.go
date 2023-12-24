@@ -31,7 +31,7 @@ import (
 	"github.com/GoAdminGroup/go-admin/modules/system"
 	"github.com/GoAdminGroup/go-admin/modules/ui"
 	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
+	"github.com/david10088/go-admin/plugins/admin"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
