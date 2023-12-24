@@ -5,7 +5,7 @@ import (
 	template2 "html/template"
 	"net/http"
 	"net/url"
-
+	"fmt"
 	"github.com/GoAdminGroup/go-admin/context"
 	"github.com/GoAdminGroup/go-admin/modules/auth"
 	"github.com/GoAdminGroup/go-admin/modules/config"
@@ -21,7 +21,7 @@ import (
 
 // Auth check the input password and username for authentication.
 func (h *Handler) Auth(ctx *context.Context) {
-
+	fmt.Prantln(1111)
 	var (
 		user     models.UserModel
 		ok       bool
